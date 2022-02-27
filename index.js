@@ -48,12 +48,12 @@ async function  getData(){
         names+=list.name
 
         for (let ab of list.abilities){
-            abilitiesz+=`${ab.ability.name},`
+            abilitiesz+=`${ab.ability.name}, `
         }
      
         
         for (let ab of list.moves){
-            movez+=`${ab.move.name},`
+            movez+=`${ab.move.name}, `
 
         }
       
